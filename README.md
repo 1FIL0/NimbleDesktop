@@ -1,5 +1,6 @@
 A clean and distraction free BSPWM rice. I've made this for personal use but feel free to use it.
 There are 2 installers, one for laptops and one for desktops. This is done because I've included modules like battery for polybar.
+Before installation, the scripts generate a backup folder with your previous configs in case you want to rollback.
 
 Install dependencies:
 Apt: sudo apt install fonts-noto fonts-firacode fonts-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh

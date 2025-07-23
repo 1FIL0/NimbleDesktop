@@ -14,6 +14,7 @@ mkdir -p ~/.config/sxhkd
 mkdir -p ~/.config/rofi
 mkdir -p ~/.local/share/rofi/themes/
 mkdir -p ~/.local/share/polybar/themes/nimbledesktop
+mkdir -p ~/Wallpapers
 
 echo "Copying files"
 cp rice/alacritty/* ~/.config/alacritty/
@@ -22,6 +23,7 @@ cp rice/sxhkd/* ~/.config/sxhkd/
 cp rice/rofi/config.rasi ~/.config/rofi/
 cp rice/rofi/nimbledesktop.rasi ~/.local/share/rofi/themes/
 cp rice/polybar/* ~/.local/share/polybar/themes/nimbledesktop/
+cp rice/wallpapers/* ~/Wallpapers
 
 echo "Setting files as executable"
 chmod u+x ~/.config/bspwm/bspwmrc

@@ -1,0 +1,73 @@
+/* GLOBALS */
+
+* {
+    bg-col:    #000000dd;
+    fg-col:    #757575;
+    highlight: #cccccc;
+    
+    background-color: transparent;
+  
+    font: "Noto Sans ui 15";
+    text-color: @fg-col;
+}
+
+/* WINDOW */
+
+window {
+    location: center;
+    fullscreen: true;
+    transparency: "real";
+    background-color: @bg-col;
+    border: 1px;
+    border-color: @highlight;
+}
+
+/* BOX */
+
+mainbox {
+    padding: 35% 30%;
+    children: [inputbar, listview];
+}
+
+inputbar {
+    margin: 0px 0px 10px 5px;
+    children: [textbox-prompt, entry, case-indicator];
+}
+
+/* str: "λ ";*/
+
+textbox-prompt {
+    expand: false;
+    str: "run: ";
+    text-color: @highlight;
+}
+
+entry {
+    margin: 0px 7px;
+}
+
+listview {
+    spacing: 3px;
+    dynamic: true;
+}
+
+/* ELEMENTS */
+
+element {
+    padding: 5px;
+    text-color: @fg-col;
+}
+
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+element selected {
+    background-color: @transparent;
+    text-color: @highlight;
+}
+
+element active, element selected active {
+    text-color: @highlight;
+}

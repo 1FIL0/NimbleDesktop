@@ -4,6 +4,7 @@ cp -r ~/.config/alacritty backup 2>/dev/null
 cp -r ~/.config/bspwm backup 2>/dev/null
 cp -r ~/.config/sxhkd backup 2>/dev/null
 cp -r ~/.config/rofi backup 2>/dev/null
+cp -r ~/.config/dunst backup 2>/dev/null
 
 echo "Installing Nimble Desktop"
 
@@ -12,6 +13,7 @@ mkdir -p ~/.config/alacritty
 mkdir -p ~/.config/bspwm
 mkdir -p ~/.config/sxhkd
 mkdir -p ~/.config/rofi
+mkdir -p ~/.config/dunst
 mkdir -p ~/.local/share/rofi/themes/
 mkdir -p ~/.local/share/polybar/themes/nimbledesktop
 mkdir -p ~/Wallpapers
@@ -22,6 +24,7 @@ cp rice/bspwm/* ~/.config/bspwm/
 cp rice/sxhkd/* ~/.config/sxhkd/
 cp rice/rofi/config.rasi ~/.config/rofi/
 cp rice/rofi/nimbledesktop.rasi ~/.local/share/rofi/themes/
+cp rice/dunst/* ~/.config/dunst
 cp rice/polybar/* ~/.local/share/polybar/themes/nimbledesktop/
 cp rice/wallpapers/* ~/Wallpapers
 

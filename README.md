@@ -3,9 +3,11 @@ There are 2 installers, one for laptops and one for desktops. This is done becau
 Before installation, the scripts generate a backup folder with your previous configs in case you want to rollback.
 
 Install dependencies:
+```
 Apt: sudo apt install fonts-noto fonts-firacode fonts-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh
 Dnf: sudo dnf install google-noto-sans-fonts fira-code-fonts fontawesome5-fonts alacritty bspwm sxhkd rofi polybar picom flameshot feh
 Pacman: sudo pacman -S noto-fonts fira-code ttf-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh
+```
 
 Installation:
 git clone https://github.com/1FIL0/NimbleDesktop.git

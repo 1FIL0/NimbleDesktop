@@ -4,7 +4,8 @@
 
 **Overview**  
 
-A clean and distraction free BSPWM rice. I've made this for personal use but feel free to use it.
+A clean and distraction free bspwm rice. I've made this for personal use but feel free to use it.  
+This rice uses bspwm, sxhkd, alacritty, polybar, dunst and rofi
 
 **Installation:**
 

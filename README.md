@@ -31,7 +31,7 @@ sudo pacman -S noto-fonts fira-code ttf-font-awesome alacritty bspwm sxhkd rofi 
 ```
 git clone https://github.com/1FIL0/NimbleDesktop.git
 cd NimbleDesktop
-./install_x.sh
+./install.sh
 ./configure_x.sh
 ```
 make sure to configure the correct platform

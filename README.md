@@ -8,17 +8,17 @@ A clean and distraction free BSPWM rice. I've made this for personal use but fee
   
 **Debian:**  
 ```
-sudo apt install fonts-noto fonts-firacode fonts-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh brightnessctl
+sudo apt install fonts-noto fonts-firacode fonts-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh brightnessctl dunst
 ```  
   
 **Fedora:**  
 ```
-sudo dnf install google-noto-sans-fonts fira-code-fonts fontawesome5-fonts alacritty bspwm sxhkd rofi polybar picom flameshot feh brightnessctl
+sudo dnf install google-noto-sans-fonts fira-code-fonts fontawesome5-fonts alacritty bspwm sxhkd rofi polybar picom flameshot feh brightnessctl dunst
 ```  
   
 **Arch:**  
 ```
-sudo pacman -S noto-fonts fira-code ttf-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh brightnessctl
+sudo pacman -S noto-fonts fira-code ttf-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh brightnessctl dunst
 ```  
 
 **2. Clone and install**  

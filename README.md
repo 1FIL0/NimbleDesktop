@@ -43,7 +43,7 @@ The hotkeys are located at ~/.config/sxhkd/sxhkdrc
 **Switch workplace:** Super + 0-9  
 **Move window to workplace:** Super + Shift + 0-9  
 **Close focused window:** Super + w  
-**Switch window focus:** Suport + Up, Down, Left, Right  
+**Switch window focus:** Super + Up, Down, Left, Right  
 **Screenshot:** Super + PrintScreen  
 
 **Common Errors:**  

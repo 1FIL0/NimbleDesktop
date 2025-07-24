@@ -31,6 +31,8 @@ cd NimbleDesktop
 ./install_x.sh
 ```
 
+**Common Errors:**  
+
 **No wifi module:**
 The wifi module might not appear because it is configured for a specific interface. To fix this, change the variable [module/wireless-network]/interface in ~/.local/share/polybar/themes/nimbledesktop/modules.ini to your specific interface. To see your wifi interface, run ```ifconfig```  
 

@@ -1,0 +1,46 @@
+[global]
+    # Enable the icon support
+    icon_position = left
+    enable_recursive_icon_lookup = true
+
+    # Set the default font and colors
+    font = Noto Sans 14
+    frame_color = "#ffffff"
+    separator_color = frame
+    background = "#000000"
+    foreground = "#ffffff"
+
+    # Notification size
+    width = 300
+    height = 300
+    offset = 20x20
+    origin = top-right
+    transparency = 0
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 5
+    frame_width = 2
+
+    # Icon theme path
+    icon_theme = Adwaita
+
+    # Image manipulation command to convert icons to grayscale
+    icon_filter = convert -colorspace Gray -alpha on -resize 64x64 png:-
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#dcf354"
+    timeout = 4000
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#dcf354"
+    timeout = 4000
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#c5300c"
+    timeout = 0

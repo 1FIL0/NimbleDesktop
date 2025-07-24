@@ -1,3 +1,7 @@
+![Desktop](./img/ss3)
+![Desktop Flow](./img/ss1)
+![Rofi](./img/ss2)
+
 **Overview**  
 
 A clean and distraction free BSPWM rice. I've made this for personal use but feel free to use it.

@@ -36,6 +36,16 @@ cd NimbleDesktop
 ```
 make sure to configure the correct platform
 
+**Hotkeys**:
+The hotkeys are located at ~/.config/sxhkd/sxhkdrc
+Open terminal: Super + Enter
+Open rofi: Super + d
+Switch workplace: Super + 0-9
+Move window to workplace: Super + Shift + 0-9
+Close focused window: Super + w
+Switch window focus: Suport + Up, Down, Left, Right
+Screenshot: Super + PrintScreen
+
 **Common Errors:**  
 
 **No wifi module:**

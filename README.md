@@ -1,6 +1,6 @@
-![Desktop](./img/ss3)
-![Desktop Flow](./img/ss1)
-![Rofi](./img/ss2)
+![Desktop](./img/ss3.png)
+![Desktop Flow](./img/ss1.png)
+![Rofi](./img/ss2.png)
 
 **Overview**  
 

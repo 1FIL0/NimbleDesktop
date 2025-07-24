@@ -4,8 +4,8 @@ Before installation, the scripts generate a backup folder with your previous con
 
 **Installation:**
 
-**1. Install dependencies:**
-*Debian:  
+**1. Install dependencies:**  
+Debian:  
 ```sudo apt install fonts-noto fonts-firacode fonts-font-awesome alacritty bspwm sxhkd rofi polybar picom flameshot feh```  
 Fedora:  
 ```sudo dnf install google-noto-sans-fonts fira-code-fonts fontawesome5-fonts alacritty bspwm sxhkd rofi polybar picom flameshot feh```  

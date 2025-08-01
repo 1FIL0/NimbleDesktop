@@ -45,8 +45,8 @@ The hotkeys are located at ~/.config/sxhkd/sxhkdrc
 **Close focused window:** Super + w  
 **Switch window focus:** Super + Up, Down, Left, Right  
 **Screenshot:** Super + PrintScreen  
-**Reload BSPWM:**: Super + Alt + r
-**Quit BSPWM:**: Super + Alt + q
+**Reload BSPWM:** Super + Alt + r  
+**Quit BSPWM:** Super + Alt + q  
 
 **Common Errors:**  
 

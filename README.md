@@ -1,8 +1,9 @@
+![Nimble](./readme_assets/nimbledesktop.png)
 # Nimble Desktop
 
-![Desktop](./img/ss3.png)
-![Desktop Flow](./img/ss1.png)
-![Rofi](./img/ss2.png)
+![Desktop](./readme_assets/ss3.png)
+![Desktop Flow](./readme_assets/ss1.png)
+![Rofi](./readme_assets/ss2.png)
 
 ## Overview
 

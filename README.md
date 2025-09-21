@@ -1,4 +1,4 @@
-![Nimble](./readme_assets/nimbledesktop.png)
+<img src="./readme_assets/nimbledesktop.png" alt="Alt text" width="300"/>
 # Nimble Desktop
 
 ![Desktop](./readme_assets/ss3.png)
